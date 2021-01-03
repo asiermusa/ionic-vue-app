@@ -4,7 +4,7 @@
   </ion-app>
 </template>
 
-<script lang="ts">
+<script>
 import { IonApp, IonRouterOutlet } from '@ionic/vue';
 import { defineComponent } from 'vue';
 
@@ -16,3 +16,11 @@ export default defineComponent({
   }
 });
 </script>
+
+<style lang="scss">
+  @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+  * {
+    font-family: 'Redressed' !important;
+  }
+</style>
